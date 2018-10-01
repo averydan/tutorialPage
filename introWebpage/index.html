@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <title>Avery's Intro</title>
+</head>
+
+<body>
+    <header class="animated lightSpeedIn">
+        <h2>Avery's Introduction Webpage</h2>
+    </header>
+
+    <section>
+        <nav class="animated slideInLeft delay-1s">
+            <div style="padding: 2.5%">
+                <ul>
+                    <li><a onclick="mainContent('home')">Home</a></li>
+                    <li><a onclick="mainContent('aboutMe')">About Me</a></li>
+                    <li><a onclick="mainContent('contactMe')">Contact Me</a></li>
+                    <li><a onclick="mainContent('examples')">Javascript Tutorials</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <article class="animated slideInRight delay-1s">
+            <div id="mainContent" style="padding: 2.5%">
+                <h1>Home</h1>
+                <p>This is a basic proof of concept built in order to demonstrate a basic understanding of HTML and
+                    CSS.</p>
+            </div>
+            <div id="home" class="stacktent">
+                <h1>Home</h1>
+                <p>This is a basic proof of concept built in order to demonstrate a basic understanding of HTML and
+                    CSS.</p>
+            </div>
+            <div id="contactMe" class="stacktent">
+                <h1>Contact Me</h1>
+                <p>Ummm..... No thanks. I don't talk to creeps.</p>
+            </div>
+            <div id="aboutMe" class="stacktent">
+                <h1>About Me</h1>
+                <p>Why are you trying to read all about me? Creep.</p>
+            </div>
+            <div id="examples" class="stacktent">
+                <h1>Javascript Tutorials</h1>
+                <p>
+                    <a onclick="typing('function',sampleFunction,50)">
+                        What Are Javascript Functions?
+                    </a>
+                    <p id="function"></p>
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <footer class="animated fadeIn delay-2s">
+        <p>Powered by years of advances in Compuer Sciences. Thank you to the passionate minds who made the software I
+            use possible, the dedicated freaks who invented hardware to use the software on, and the incredibly hard
+            works who make and maintain the infrastructure by which this data is transmitted!</p>
+    </footer>
+</body>
+
+</html>
